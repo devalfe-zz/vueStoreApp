@@ -10,8 +10,7 @@ let config = {
         'public/css/**/*.css'
     ]
 };
-
-//Browserfy
+//BrowserSync
 mix.browserSync({
     files: config.watchFiles,
     host: config.host,
