@@ -2,7 +2,7 @@ let mix = require('laravel-mix');
 let config = {
     host: '192.168.10.10',
     port: 3000,
-    base_url: 'vuestore.dev',
+    base_url: 'vuestore.test',
     watchFiles: [
         'app/**/*.php',
         'resources/views/**/*.php',

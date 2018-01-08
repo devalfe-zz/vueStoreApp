@@ -9,14 +9,21 @@
 	<!-- Fonts -->
 	<link rel="stylesheet" type="text/css" href="{{mix('css/app.css')}}">
 	<!-- Styles -->
+
+	<!-- Chrome, Firefox OS, Opera and Vivaldi -->
+	<meta name="theme-color" content="#ff0202">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#ff0202">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#ff0202">
 </head>
 
 <body>
-	<div id="app">
+	<div id="app ">
 		<example-component :listado='personas'></example-component>
 		<pre>@{{ $data }}</pre>
 	</div>
 </body>
-<script type="text/javascript" src="{{mix('js/app.js')}}"></script>
+<script type="text/javascript " src="{{mix( 'js/app.js')}} "></script>
 
 </html>

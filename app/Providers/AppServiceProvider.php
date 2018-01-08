@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace vuestoreapp\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
