@@ -1,1 +1,5 @@
 @import "settings.scss";
+body {
+    border-top: 4px solid $color-border-top-body;
+    color: $color-body;
+}

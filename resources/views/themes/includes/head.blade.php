@@ -13,13 +13,10 @@
 	<meta name="geo.region" content="{{ trans('content.region') }}">
 	<meta name="geo.position" content="{{ trans('content.position') }}">
 	<meta name="ICBM" content="{{ trans('content.icbm') }}">
-	<link rel="stylesheet" type="text/css" href="{{mix('css/app.css')}}">
-	<meta name="csrf-token" content="{{ csrf_token() }}">
-	<!-- Chrome, Firefox OS, Opera and Vivaldi -->
 	<meta name="theme-color" content="#ff0202">
-	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#ff0202">
-	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#ff0202">
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+	<link rel="stylesheet" type="text/css" href="{{mix('css/app.css')}}">
 
 </head>
