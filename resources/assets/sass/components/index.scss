@@ -1,5 +1,11 @@
-@import "settings.scss";
+@import "_colors.scss";
+@import "_settings.scss";
 body {
     border-top: 4px solid $color-border-top-body;
     color: $color-body;
+    font-family: $font-family;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    margin: 0;
+    padding: 0;
 }

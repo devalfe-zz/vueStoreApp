@@ -1,6 +1,7 @@
 // Typography
+@import "_fonts.scss";
 //$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 $fa-font-path: "~node_modules/font-awesome/fonts";
-$font-family: sans-serif;
-$font-size-base: 16px;
-$line-height-base: 1.6;
+$font-family: 'arimoregular';
+$font-size-base: 1rem;
+$line-height-base: 1.2rem;

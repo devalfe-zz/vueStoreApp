@@ -13433,3 +13433,45 @@ a.text-dark:hover {
   }
 }
 
+@font-face {
+  font-family: 'arimobold';
+  src: url(/fonts/arimo-bold-webfont.eot?ca570a2338e5d1ab7e0b38664d52ec10);
+  src: url(/fonts/arimo-bold-webfont.eot?ca570a2338e5d1ab7e0b38664d52ec10) format("embedded-opentype"), url(/fonts/arimo-bold-webfont.woff2?5c18e2c65d10853059b3fbd651910e58) format("woff2"), url(/fonts/arimo-bold-webfont.woff?ef4eaa4bd17a4a0f22ffe73cdae9cd30) format("woff"), url(/fonts/arimo-bold-webfont.ttf?a04378c66b9b008f10bea8324ed5094e) format("truetype"), url(/fonts/arimo-bold-webfont.svg?51afb180fcdbf4c26de59ebda9d30d69) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arimobold_italic';
+  src: url(/fonts/arimo-bolditalic-webfont.eot?e0b24aa081860e62f06c76e6e1441f5e);
+  src: url(/fonts/arimo-bolditalic-webfont.eot?e0b24aa081860e62f06c76e6e1441f5e) format("embedded-opentype"), url(/fonts/arimo-bolditalic-webfont.woff2?ea87c4c1d060497566c9691d40632cf1) format("woff2"), url(/fonts/arimo-bolditalic-webfont.woff?1b820666780e5be89f40e918f9d915d3) format("woff"), url(/fonts/arimo-bolditalic-webfont.ttf?31f11f2dbc4199b25d5c00577c99ee8e) format("truetype"), url(/fonts/arimo-bolditalic-webfont.svg?9de777d94598ec579b74ff89e2473f45) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arimoitalic';
+  src: url(/fonts/arimo-italic-webfont.eot?ca1a649f33e913f81643a13ad9716d4d);
+  src: url(/fonts/arimo-italic-webfont.eot?ca1a649f33e913f81643a13ad9716d4d) format("embedded-opentype"), url(/fonts/arimo-italic-webfont.woff2?0a2c55df360767f59620625910b2f138) format("woff2"), url(/fonts/arimo-italic-webfont.woff?d4b13fbeef59c6713936535e23c0f801) format("woff"), url(/fonts/arimo-italic-webfont.ttf?31398bc8d6890bdaf262653bdd5d40f9) format("truetype"), url(/fonts/arimo-italic-webfont.svg?3ea14edc40c858fc389a0677c64e0c72) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arimoregular';
+  src: url(/fonts/arimo-regular-webfont.eot?9424fe9ea2f4bf6714e26ee815ce3e85);
+  src: url(/fonts/arimo-regular-webfont.eot?9424fe9ea2f4bf6714e26ee815ce3e85) format("embedded-opentype"), url(/fonts/arimo-regular-webfont.woff2?73c35a939e1926ed9bea98cd4ab71162) format("woff2"), url(/fonts/arimo-regular-webfont.woff?60534c4b3a70b7d999392efedbc7e80b) format("woff"), url(/fonts/arimo-regular-webfont.ttf?c2cca5909b15d869b31c72e2b8cbc2d3) format("truetype"), url(/fonts/arimo-regular-webfont.svg?1f8f779fe50523110e5e66613ae99130) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  border-top: 4px solid #12212E;
+  color: #687480;
+  font-family: "arimoregular";
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
